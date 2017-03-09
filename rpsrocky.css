@@ -1,0 +1,334 @@
+body {
+  background-color: yellow;
+}
+
+.container {
+  position: relative;
+  padding-bottom: 100px;
+  border: 0px solid red;
+}
+
+.pen {
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+  background-color: yellow;
+  border: 0px solid blue;
+}
+
+.block {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 21px;
+  text-align: center;
+  border: 0px solid orange;
+}
+
+header {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 55px;
+  color: black;
+  line-height: 41px;
+}
+
+.block1 {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: 0px solid yellow;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 55px;
+  color: black;
+  text-shadow: 2px 2px #9F787F, 3px 3px #9F787F, 4px 4px #60484C;
+  border: 0px solid red;
+  -webkit-transition: text-shadow 1s; /* For Safari 3.1 to 6.0 */
+  transition: text-shadow 1s
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 3;
+}
+
+h1:hover {
+  color: red;
+  text-shadow: 1px 1px #9F787F;
+  -webkit-animation-duration: 0s;
+  -webkit-animation-iteration-count: 0;
+}
+
+.ring {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: 0px solid green;
+}
+
+.you {
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 19px;
+  color: red;
+  width: 30%;
+  border: 0px solid red;
+}
+
+#choiceId {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 41px;
+  color: red;
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.vs {
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  width: 30%;
+  border: 0px solid blue;
+}
+
+.computer {
+  display: inline-block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 19px;
+  color: blue;
+  width: 30%;
+  border: 0px solid red;
+}
+
+#compId {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 41px;
+  color: blue;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.winner {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: 0px solid purple;
+}
+
+#result {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 77px;
+  color: black;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.playagain {
+  width: 100%
+  margin: auto;
+  background-color: yellow;
+  text-align: center;
+  border: 0px solid purple;
+}
+
+button {
+  background-color: yellow;
+  text-decoration: none;
+  border: 0px solid purple;
+
+}
+
+button a{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 21px;
+  color: purple;
+  background-color: yellow;
+
+
+}
+
+h4 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 21px;
+  color: purple;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+.famousfeuds {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#feud1 {
+  display: inline-block;
+  height: 150px;
+}
+#feud1B {
+  display: inline-block;
+  height: 150px;
+}
+
+#feud1 img{
+  height: 150px;
+}
+
+#feud1B img{
+  height: 150px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: 'Times New Roman', serif;
+  color: #131313;
+  border: 0px solid green;
+}
+
+
+
+/* ///////MEDIA WIDTH/////// */
+@media screen and (max-width:680px) {
+
+.pen {
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;
+  background-color: yellow;
+  border: 0px solid blue;
+}
+
+.block {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 21px;
+  text-align: center;
+  border: 0px solid orange;
+}
+
+header {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 55px;
+  color: black;
+  line-height: 41px;
+}
+
+.block1 {
+ 	width: 100%;
+ 	margin: auto;
+ 	text-align: center;
+ 	padding-bottom: 17px;
+ 	border: 0px solid green;
+}
+
+h1 {
+  	font-family: 'Rubik Mono One', sans-serif;
+ 	font-size: 39px;
+	color: black;
+	text-shadow: 2px 2px #9F787F, 3px 3px #9F787F, 4px 4px #60484C;
+	line-height: 9px;
+	border: 0px solid red;
+	-webkit-transition: text-shadow 1s; /* For Safari 3.1 to 6.0 */
+	transition: text-shadow 1s
+}
+
+h1:hover {
+	color: red;
+	text-shadow: 1px 1px #9F787F;
+}
+
+.ring {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 47px;
+  border: 5px ridge white;
+}
+
+.you {
+  display: block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 19px;
+  color: red;
+  text-align: center;
+  width: 100%;
+  border: 0px solid red;
+}
+
+#choiceId {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 41px;
+  color: red;
+  text-align: center;
+  padding: 5px;
+  border: 0px solid red;
+}
+
+.vs {
+  display: block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: 0px solid blue;
+}
+
+.computer {
+  display: block;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 19px;
+  color: blue;
+  text-align: center;
+  width: 100%;
+  border: 0px solid red;
+}
+
+#compId {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 41px;
+  color: blue;
+  padding: 5px;
+  border: 0px solid blue;
+}
+
+.winner {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: 0px solid purple;
+}
+
+#result {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 45px;
+  color: black;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.famousfeuds {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#feud1 {
+  display: inline-block;
+  height: 150px;
+}
+#feud1B {
+  display: inline-block;
+  height: 150px;
+}
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Rock Paper Scissors</title>
+<meta name="description" content="Settle the Feud with A Mean Game of Rock, Paper, Scissors!">
+<link rel="stylesheet" href="/animate.css">
+<link rel="stylesheet" type="text/css" href="rps.css">
+<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+<script src="rps.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="pen">
+
+<div class="block">
+<header class="animated fadeInDown">SETTLE THE FEUD!<br><span style="font-size: 33px;">w/ a mean game of...</span><header>
+</div>
+
+<div class="block1">
+<button onclick="userChoice1()"><h1 class="animated shake">ROCK,</h1></button>
+<button onclick="userChoice2()"><h1 class="animated bounce">PAPER,</h1></button>
+<button onclick="userChoice3()"><h1 class="animated rubberBand">SCISSORS</h1></button>
+</div>
+
+<div class="ring">
+<div class="you"><h2>You:</h2><span id="choiceId"></span></div>
+
+<div class="vs"><span>VS.</span></div>
+
+<div class="computer"><h2>Computer:</h2><span id="compId"></span></div>
+
+</div>
+
+<div class="winner"><p id="result" class="animated lightSpeedIn"></p></div>
+
+<div class="playagain">
+<button><a href="/webdesign/settlethefeud/rps.html">Play Again</a></button>
+<h4>OR Settle other FAMOUS FEUDS...</h4>
+
+<div class="famousfeuds">
+<img src="/webdesign/settlethefeud/images/rocky.png" id="feud1">
+<img src="/webdesign/settlethefeud/images/mrt.png" id="feud1B">
+</div>
+
+<h4><a href="/webdesign/settlethefeud/rpsrocky.html">Rocky vs. "Clubber" Lang</a></h4>
+<h4><a href="/webdesign/settlethefeud/rpscat.html">Cat vs. Mouse</a></h4>
+
+<!-- This works with setinterval, kinf of ...
+<div id="feud1">
+	<img src="/webdesign/settlethefeud/images/rocky.png">
+    <img src="/webdesign/settlethefeud/images/mrt.png">
+</div>
+
+<div id="feud2">
+	<img src="/webdesign/settlethefeud/images/cat.png">
+    <img src="/webdesign/settlethefeud/images/mouse.png">
+</div>
+
+<h4><a href="/webdesign/settlethefeud/rpsrocky.html">Rocky vs. "Clubber" Lang</a></h4>
+<h4><a href="/webdesign/settlethefeud/rpscat.html">Cat vs. Mouse</a></h4> -->
+
+</div>
+
+<div class="footer">
+<footer><a href="#"><i>&copy; 2016 Table of Contents Studio</i></footer>
+</div>
+
+</div>
+
+</body>
+</html>
